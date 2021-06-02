@@ -1,6 +1,6 @@
 <section id="top">
     <div class="logo">
-        Logo
+        <img src="@asset('images/teascompany_logo.svg')" alt="logo" />
     </div>
     <div class="container">
     <div class="row">
@@ -51,7 +51,9 @@
         <div class="market">
             <div class="logo">
                 @if($market['logo'])
-                    <img src="{{ $market['logo']['url'] }}" alt="{{ $market['logo']['alt'] }}" />
+                    <div class="logo-wrap">
+                        <img src="{{ $market['logo']['url'] }}" alt="{{ $market['logo']['alt'] }}" />
+                    </div>
                 @endif
             </div>
             <div class="text">
