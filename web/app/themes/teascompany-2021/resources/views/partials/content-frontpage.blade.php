@@ -5,16 +5,61 @@
     <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <a href="#markets">Schedule</a>
+            <div class="menu-item">
+            <a href="#markets">
+                <svg viewBox="0 0 500 250">
+                    <defs><path id="curve" d="M0,0 c0 250,500 250,500 0" /></defs>
+                    <text width="500">
+                      <textPath xlink:href="#curve" startOffset="50">
+                        Schedule
+                      </textPath>
+                    </text>
+                  </svg>
+            </a>
+        </div>
         </div>
         <div class="col-md-6">
-            <a href="#catering">Catering</a>
+            <div class="menu-item">
+            <a href="#catering">
+                <svg viewBox="0 0 500 250">
+                    <defs><path id="curve" d="M0,0 c0 250,500 250,500 0" /></defs>
+                    <text width="500">
+                      <textPath xlink:href="#curve" startOffset="50">
+                        Catering
+                      </textPath>
+                    </text>
+                  </svg>
+            </a>
+        </div>
         </div>
         <div class="col-md-6">
-            <a href="#menu">Menu</a>
+            <div class="menu-item">
+            <a href="#menu">
+                <img src="@asset('images/menu_fruittea.png')" />
+                <svg viewBox="0 0 500 250">
+                    <defs><path id="curve" d="M0,0 c0 250,500 250,500 0" /></defs>
+                    <text width="500">
+                      <textPath xlink:href="#curve" startOffset="50">
+                        Menu
+                      </textPath>
+                    </text>
+                  </svg>
+            </a>
+        </div>
         </div>
         <div class="col-md-6">
-            <a href="#about">About Us</a>
+            <div class="menu-item">
+            <a href="#about">
+                <svg viewBox="0 0 500 250">
+                    <defs><path id="curve" d="M0,0 c0 250,500 250,500 0" /></defs>
+                    <text width="500">
+                      <textPath xlink:href="#curve" startOffset="50">
+                        About Us
+                      </textPath>
+                    </text>
+                  </svg>
+            </a>
+        </div>
         </div>
     </div>
     </div>
